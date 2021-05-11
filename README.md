@@ -14,6 +14,7 @@
     - Post (title, body, author, date created)
     - Comment (comment, author, date created)
 - Create associations
+- Create some seed data to test
 
 ### Views
 - Mock ups

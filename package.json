@@ -1,0 +1,23 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "A simple blog site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvaden19/tech-blog.git"
+  },
+  "author": "Kelly L Vaden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kvaden19/tech-blog/issues"
+  },
+  "homepage": "https://github.com/kvaden19/tech-blog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
