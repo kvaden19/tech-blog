@@ -2,12 +2,7 @@
 
 ## TODOs
 
-### Setup
-- Create a package.json
-- Set up an express server
-
 ### Models
-- Create a database
 - Create Models
     - User (username, password)
         - Hook to bcrypt password
@@ -15,14 +10,6 @@
     - Comment (comment, author, date created)
 - Create associations
 - Create some seed data to test
-
-### Views
-- Mock ups
-    - Sign up / Login
-    - Homepage w/blog posts + comment option + nav bar
-    - Dashboard
-- Bootstrap all of the above
-- Translate into handlebars framework
 
 ### Controllers
 - Homepage GET all blog posts
@@ -34,6 +21,13 @@
 - Dashboard PUT (edit) blog post
 - Dashboard DELETE blog post
 (*NOTE* reference note-taker app)
+
+### Views
+- HTML / Bootstrap (see "Assets" for mockups):
+    - Sign up / Login
+    - Homepage w/blog posts + comment option + nav bar
+    - Dashboard
+- Translate into handlebars framework
 
 ### Authentication & Session
 - All links besides homepage lead to login
