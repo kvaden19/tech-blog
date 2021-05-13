@@ -3,15 +3,9 @@
 ## TODOs
 
 ### Models
-- Create Models
-    - User (username, password)
-        - Hook to bcrypt password
-    - Post (title, body, author, date created)
-    - Comment (comment, author, date created)
-- Create associations
 - Create some seed data to test
 
-### Controllers
+### Controllers (aka Routes)
 - Homepage GET all blog posts
 - Sign up POST a new user
 - Log in authenticate user (?)
@@ -35,3 +29,5 @@
 - Set up Session for logged in user
 - Idle for > 1 minute logs user out
 - Logout button click logs user out
+
+(8)
