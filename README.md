@@ -2,9 +2,6 @@
 
 ## TODOs
 
-### Models
-- Create some seed data to test
-
 ### Controllers (aka Routes)
 - Homepage GET all blog posts
 - Sign up POST a new user

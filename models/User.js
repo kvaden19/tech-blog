@@ -31,9 +31,9 @@ User.init(
     },
     {
     // Configurations
-        hooks: {
-            // encrypt password
-        },
+        // hooks: {
+        //     // encrypt password
+        // },
         sequelize,
         timestamps: false,
         freezeTableName: true,
