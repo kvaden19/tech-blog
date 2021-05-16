@@ -27,4 +27,4 @@
 - Idle for > 1 minute logs user out
 - Logout button click logs user out
 
-(8)
+(7)
