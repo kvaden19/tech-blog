@@ -2,6 +2,12 @@
 
 ## TODOs
 
+### Views
+- HTML / Bootstrap (see "Assets" for mockups):
+    - Sign up / Login
+    - Dashboard
+- Translate into handlebars framework
+
 ### Controllers (aka Routes)
 - Homepage GET all blog posts
 - Sign up POST a new user
@@ -11,14 +17,6 @@
 - Dashboard POST new blog post
 - Dashboard PUT (edit) blog post
 - Dashboard DELETE blog post
-(*NOTE* reference note-taker app)
-
-### Views
-- HTML / Bootstrap (see "Assets" for mockups):
-    - Sign up / Login
-    - Homepage w/blog posts + comment option + nav bar
-    - Dashboard
-- Translate into handlebars framework
 
 ### Authentication & Session
 - All links besides homepage lead to login
