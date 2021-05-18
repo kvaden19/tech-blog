@@ -1,10 +1,10 @@
-<!-- Use Handlebars "each" -->
+{{#each posts as |post| }}
 <div class="card my-4">
-    <div class="card-header text-dark bg-info">Blog Post #1</div>
+    <div class="card-header text-dark bg-info">{{post.title}}</div>
     <div class="card-body text-dark bg-light">
-        <p class="h6">Posted by magicalkels on 5/15/2021</p>
-        <br>
-        Isn't technology great?! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure nihil optio quod?Dignissimos explicabo eum, ullam minima iure doloremque accusamus cumque animi optio repellendus, veritatis fugiat blanditiis harum a rerum.<br><br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio cumque voluptatem nisi quae enim Animi fugit aliquam, exercitationem nulla voluptates quo aut sunt eaque ducimus harum. Mollitia, sit tenetur!
+        <p class="h6">Posted by {{user.name}} on {{post.createdAt}}</p>
+        {{!-- TODO: Write a format_date function in utils --}}
+        <p>{{post.body}}</p>
     </div>
 </div>
+{{/each}}

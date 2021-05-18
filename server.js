@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 // const session = require('express-session');
 const exphbs = require('express-handlebars');
-// const routes = require('./controllers/homeRoutes'); // TODO: point to controllers/index.js when created
+const routes = require('./controllers/homeRoutes'); // TODO: point to controllers/index.js when created
 // const helpers = require('./utils/helpers);
 
 // Import Sequelize connection from config folder
@@ -21,9 +21,11 @@ const hbs = exphbs.create({});
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(require('./controllers/homeRoutes')); // TODO: change this to variable in line 6
+app.use(routes);
 
 // Configure Express to work with JSON data in POST requests
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Set up and use a session ...
 
