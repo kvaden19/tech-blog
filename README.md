@@ -2,12 +2,6 @@
 
 ## TODOs
 
-### Views / Controllers I
-- Homepage GET comments
-    - From event handler, call the route using fetch, dynamically make a new Boostrap card for each comment (public/js/comments.js)
-- Homepage POST new comment
-    - From event handler, show a Bootstrap form, grab the user's input, and call the route using fetch
-
 ### Authentication & Session
 - Log in authenticate user
 - All links besides homepage lead to login
@@ -22,9 +16,10 @@
 - Dashboard POST new blog post
 - Dashboard PUT (edit) blog post
 - Dashboard DELETE blog post
+- Homepage GET comments -- try document.replace idea
+- Homepage POST new comment
+    - From event handler, show a Bootstrap form, grab the user's input, and call the route using fetch
 
 ### Tweaks
 - Need a format.date utility
-- API routes need error handling
-
-(6)
+- Error handling
